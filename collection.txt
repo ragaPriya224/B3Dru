@@ -1,0 +1,166 @@
+//interf1  extends  interf2
+//Class1  implements Interf1
+//class Class1  extends Class2
+//Class1 extends Class2  implements Interf1,Interf2
+// u can implement any number of interfaces, but only one class, u can extend
+----------------------------------------
+
+
+
+.set/ group of something
+represent a group of individual objects as a single entity
+
+Collection Framework
+
+  contains several classes, and interfaces ,  which can be used for represent a group of individual objects as a single entity
+   old concept, used in another languages
+  
+ KEY Interface ->  9 
+---------------
+1. collection(I)
+2. List(I) 
+3. set(I)
+4. sortedSet(I)
+5. navigableSet(I)
+6. queue(I)
+7. map (I)
+8. sortedMap(I)
+9. navigableMap(I)
+
+// dress shop -> unique items
+// grocery shop -> duplicate items
+// hotel -> burger & coke 
+// hotel -> menu card-> price and food item
+
+1. Collection(I)
+-> super Interface / Root interface
+-> defines most common methods used for any collection object
+-> there is no concrete class that implements collection interface
+
+(Concrete class -> In other words, it's a full implementation of its blueprint.
+As such, it has no unimplemented method)
+https://www.baeldung.com/java-concrete-class
+----------------------------------------------------
+
+2.List(I)
+// grocery shop -> duplicate items
+// hotel -> masala dosa & coffee
+
+when you want the insertion order to be maintained, and it must allow duplicate elements means, 
+then we should go for list interface
+
+Collection(I)
+|
+List(I)
+
+|
+ArrayList    LinkedList(1.2)     VectorStack(1.0)  -> old/legacy classes
+
+3. Set(I)
+
+// dress shop -> unique items
+IF we want to represent group of individual objects as single entity where 
+*  it won't allow duplicate elements 
+* insertion order won't be maintained 
+
+Collection(I)
+|
+Set(I)  
+|
+HashSet(class)
+|
+LinkedHashSet
+
+
+            List          set
+duplicate    yes          no
+ins order    yes          no
+-----------------------------------
+4. sortedSet(I)
+
+Collection(I)
+|
+Set(I)
+|
+SortedSet(I)
+|
+NavigableSet(I)
+|
+TreeSet(Implementation class)
+
+* duplicate not allowed
+*insert according to sorting order
+----------------------------------------------
+5.  navigableSet(I)
+
+* it is a child of sorted set
+* several methods for that navigation purpose
+* implementation class of navigable set is treeset
+
+6 : QUEUE(I)
+
+represent group of individual objects prior(before ) to processing, we can go for queue concept
+
+Collection(I)
+||
+
+QUEUE(I)
+
+
+
+PRIORITY QUEUE        BLOCKING QUEUE -> LINKED, PRIORITY 
+
+WE WERE representing a group of individual objects as a single entity 
+
+
+--------------------------------------
+MAP(I)
+
+if we want to represent a group of objects as key , value pair -> then go for map
+
+Key              value 
+
+vegBriyani      100
+chickenBriyani   200
+coffee            50 
+
+rollID   name
+
+101   anu   -> entity 
+102   aravind
+103    john
+
+ pair of key value is known as entity 
+
+not child interface of collection 
+
+Map(I)
+
+hashMap    weakHashMap IdentityHashMap Hashtable(dictionary)
+linkedHashMap
+
+
+sortedmap(I)  ->
+
+insert a key value pair according to sorting order
+impl classs -> treemap
+
+
+navigable map(I)
+
+navigation purposes
+child of sorted map 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
