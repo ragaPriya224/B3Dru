@@ -54,7 +54,7 @@ Collection(I)
 List(I)
 
 |
-ArrayList    LinkedList(1.2)     VectorStack(1.0)  -> old/legacy classes
+ArrayList    LinkedList(1.2)     Vector & Stack(1.0)  -> old/legacy classes
 
 3. Set(I)
 
