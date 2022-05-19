@@ -48,3 +48,15 @@ freq operation: search
 null ok
 hetero data
 constructors: https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html
+-------------
+Treeset
+
+ds: balanced tree
+dup no
+ins order no
+sorting order ok
+heterogenous no 
+null is possible, only once 
+
+4 constructor
+--------------
