@@ -1,0 +1,80 @@
+java 8 feature -> 2014
+latest 17 version 
+
+
+python, R, scala 
+10 lines of code ->
+100 lines of java -> 
+
+Less number of code -> Functional programming
+ Lambda Expresion -> powerful concept to enable  functional,
+ 					 reduce lines of code
+ 					 
+1. lambda expression
+2. functional interface
+3. default/static methods
+4. predefined  functional interfaces
+     predicate
+     consumer
+     supplier
+     function
+5.Double colon operator (::)
+     for method reference purpose
+     for constructor reference. 
+6. streams, parallel streams
+7. optional classes ( to avoid null pointer exce)
+8. date time api ( util.date or sql.date)
+9. Nashron js engine
+
+
+1. lambda expression
+  LISP -> used lambda 
+  lambda -> python, c , c++ 
+   not specific to java, came lately 
+   -> lambda expression
+   objective: to bring benefits of functional programming into javaa
+   ->
+   anonymous function
+ -> no name/ nameless
+ -> without r type, without modifier, without name -> 
+ 
+ very vey easy concepts
+ 
+ public void m1()
+ {
+ sysout("hello");
+}
+  () -> sysout("hello"); 
+{} -> optional
+
+EG: 2
+
+ public void m1(int a, int b){
+ sysout(a+b);
+ }
+   ( a, b) -> sysout(a+b); //solution
+ 
+ 
+ EG 3:
+ public int squareIt(int n){
+ return n*n;
+ }
+
+    (n) ->  n*n;
+ 
+ EG: 4
+ public void m1(String s){
+ return s.length()
+ }
+ 
+    ( s) -> {return s.length() };
+ 
+ Functional Interface -> special word 
+ SAM -> interface with Single abstract method  is know functionalinterface 
+if u want to invoke lambda expression, then compulsory we need FI
+
+rules:
+{} -> optional
+{} -> return/ multi lines mandatory
+
+inside FI -> default, static method?
