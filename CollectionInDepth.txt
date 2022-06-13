@@ -68,7 +68,7 @@ version ->1.4version
 dup        no 		    	   no 
 insorder   no                      yes preserved 
 DS         hashtable               hashtable +linkedList
-
+---------------------------------------------------------
 
 sorted set
 child interface of set
@@ -83,7 +83,7 @@ headSet()
 tailSet()
 subset()
 comparator()
-
+---------------------------------------
 Treeset
 
 ds: balanced tree
