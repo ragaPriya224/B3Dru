@@ -64,6 +64,19 @@ LINKED HASH SET
 Underlying DS: hashtable +linkedlist
 version ->1.4version 
 ----------------------
+sorted set
+child interface of set
+represent group of individual according to some sorting order 
+duplicate -> no
+
+method specific:
+
+first()
+last()
+headSet()
+tailSet()
+subset()
+comparator()
 
 Treeset
 
