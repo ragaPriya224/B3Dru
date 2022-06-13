@@ -64,6 +64,12 @@ LINKED HASH SET
 Underlying DS: hashtable +linkedlist
 version ->1.4version 
 ----------------------
+	   Hashset		   LinkedHashSet
+dup        no 		    	   no 
+insorder   no                      yes preserved 
+DS         hashtable               hashtable +linkedList
+
+
 sorted set
 child interface of set
 represent group of individual according to some sorting order 
