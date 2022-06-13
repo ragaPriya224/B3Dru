@@ -37,6 +37,14 @@ getFirst
 getLast
 removeFirst
 removeLast
+
+-----------------------------------
+
+      ArrayList            	linkedList
+best    retrieval	    	insertion,deletion
+worst   insesrtion/deletion      retrieval 
+
+
 ---------------------------------
 SET:
 child interface of collectio 
